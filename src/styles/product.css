@@ -1,0 +1,543 @@
+/** Add styles here **/
+.elc-main {
+  position: relative;
+  top: 160px;
+  max-width: 1266px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-left: 35px;
+}
+
+.elc-main__product-image-wrapper {
+  width: 50%;
+}
+
+.elc-main__description {
+  width: 50%;
+}
+
+.elc-main__cat {
+  display: none;
+}
+
+.elc-main-description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.elc-main-description__product-img {
+  max-width: 100%;
+}
+
+.elc-main-description__product-attributes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 602px;
+}
+
+.elc-main-description__img {
+  margin: 0;
+  padding-top: 48px;
+  padding-left: 22px;
+}
+
+.elc-main-description__product-rating {
+  height: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -5px 0 0 1px;
+}
+
+.elc-main-description__name {
+  font-family: "Helvetica Neue LT Std";
+  max-width: 485px;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  color: #1a1a1a;
+  margin-top: 19px;
+  margin-bottom: 10px;
+}
+
+.elc-main-description__cat {
+  font-size: 17px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: #999999;
+  margin: 0;
+}
+
+.elc-main-description__desc {
+  color: #1a1a1a;
+  width: 480px;
+  margin-top: 0;
+  line-height: 1.4em;
+  letter-spacing: 1.2px;
+}
+
+.elc-main-description__benefits-wrapper {
+  width: 301px;
+}
+
+.elc-main-description__coverage-wrapper {
+  width: 301px;
+}
+
+.elc-main-description__ingredients-wrapper {
+  width: 300px;
+  display: flow-root;
+  margin-top: -18px;
+}
+
+.elc-main-description__finish-wrapper {
+  width: 300px;
+  display: flow-root;
+}
+
+.elc-main-description__benefits-title {
+  margin-top: 33px;
+  font-family: "Helvetica Neue LT Std";
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.elc-main-description__benefits-features {
+  margin-top: 6px;
+  letter-spacing: 0.07em;
+}
+
+.elc-main-description__finish-title {
+  font-family: "Helvetica Neue LT Std";
+  margin-top: 33px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.elc-main-description__finish-features {
+  margin-top: 6px;
+  letter-spacing: 0.07em;
+}
+
+.elc-main-description__coverage-title {
+  font-family: "Helvetica Neue LT Std";
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+  margin-top: 14px;
+}
+
+.elc-main-description__coverage-features {
+  margin-top: 6px;
+  letter-spacing: 0.07em;
+}
+
+.elc-main-description__ingredients-title {
+  font-family: "Helvetica Neue LT Std";
+  margin-top: 33px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+.elc-main-description__ingredients-features {
+  font-family: "Helvetica Neue LT Std Lt";
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #1a1a1a;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+.elc-main-description__ingredients-features a {
+  text-decoration: none;
+  border-bottom: solid 2px #1a1a1a;
+  padding-bottom: 2px;
+  color: #1a1a1a;
+}
+
+.elc-main-description__shade-wrapper {
+  border: #cccccc solid 2px;
+  margin-top: 51px;
+  min-height: 36px;
+  padding: 21px 19px 0px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 227px;
+}
+
+.elc-main-description__shade-name {
+  font-family: "Helvetica Neue LT Std";
+  font-size: 18px;
+  letter-spacing: -0.06em;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.elc-main-description__shade-color {
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin-top: 4px;
+  margin-right: 2px;
+}
+
+.elc-main-description__quantity {
+  font-family: "Helvetica Neue LT Std";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  margin-bottom: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 3px;
+}
+
+.elc-main-description__quantity img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0 12px;
+}
+
+.elc-main-description__otp {
+  font-family: "Helvetica Neue LT Std";
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -0.01em;
+  color: #1a1a1a;
+  margin-bottom: 0;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 47.5%;
+  height: 32px;
+  margin-left: 12px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.elc-main-description__otp img {
+  max-height: 27px;
+  margin-left: 11px;
+}
+
+.elc-main-description__price-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.elc-main-description__price {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 39%;
+  margin-top: 56px;
+  font-family: "Helvetica Neue LT Std";
+  font-size: 28px;
+}
+
+.elc-main-description__submit {
+  width: 274px;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  height: 64px;
+  font-size: 18px;
+  margin: 38px auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.elc-product-attributes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 397px;
+}
+
+@media (max-width: 1200px) {
+  .elc-main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 90px;
+  }
+  .elc-main__product-image-wrapper {
+    width: 100%;
+    max-width: 344px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .elc-main__description {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .elc-main__cat {
+    display: block;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #999999;
+    text-align: left;
+    margin-top: 0;
+  }
+  .elc-main-description__product-attributes {
+    margin-bottom: 12px;
+  }
+  .elc-main-description__img {
+    padding-top: 30px;
+    padding-left: 0;
+    padding-bottom: 60px;
+  }
+  .elc-main-description__cat {
+    display: none;
+  }
+  .elc-main-description__name {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.004em;
+    color: #1a1a1a;
+    font-family: "Helvetica Neue LT Std";
+    margin-bottom: 8px;
+  }
+  .elc-main-description__desc {
+    font-family: "Helvetica Neue LT Std Lt";
+    margin-top: 0px;
+    margin-bottom: 19px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    max-width: 332px;
+  }
+  .elc-main-description__product-img {
+    max-width: 340px;
+  }
+  .elc-main-description__product-rating {
+    margin: auto;
+    height: 0.77em;
+    margin-left: 0.15em;
+  }
+  .elc-main-description__benefits-title {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 24px;
+  }
+  .elc-main-description__benefits-features {
+    font-family: "Helvetica Neue LT Std Lt";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .elc-main-description__finish-title {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+  }
+  .elc-main-description__finish-features {
+    font-family: "Helvetica Neue LT Std Lt";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .elc-main-description__coverage-title {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+  }
+  .elc-main-description__coverage-features {
+    font-family: "Helvetica Neue LT Std Lt";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .elc-main-description__finish-features {
+    font-family: "Helvetica Neue LT Std Lt";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .elc-main-description__ingredients-title {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+  }
+  .elc-main-description__ingredients-features {
+    font-family: "Helvetica Neue LT Std Lt";
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+  .elc-main-description__ingredients-features a {
+    color: #1a1a1a;
+    border-bottom: solid 1px #000000;
+    text-decoration: none;
+  }
+  .elc-main-description__benefits-features-title {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+  }
+  .elc-main-description__shade-wrapper {
+    border: #cccccc solid 2px;
+    margin-top: 34px;
+    min-height: 37px;
+    padding: 13px 19px 0px 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 22px;
+    max-width: 298px;
+  }
+  .elc-main-description__shade-name {
+    font-size: 15px;
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+  }
+  .elc-main-description__shade-color {
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-top: 4px;
+    margin-right: 2px;
+  }
+  .elc-main-description__otp {
+    font-family: "Helvetica Neue LT Std";
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 189px;
+    float: right;
+  }
+  .elc-main-description__otp img {
+    max-height: 23px;
+  }
+  .elc-main-description__quantity {
+    font-family: "Helvetica Neue LT Std";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #1a1a1a;
+    margin-bottom: 0;
+    float: left;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .elc-main-description__quantity img {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0 12px;
+  }
+  .elc-main-description__price {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 98%;
+    margin-top: 36px;
+    font-family: "Helvetica Neue LT Std";
+  }
+  .elc-main-description__submit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    max-width: 340px;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    height: 56px;
+    margin: 27px auto;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=product.css.map */
