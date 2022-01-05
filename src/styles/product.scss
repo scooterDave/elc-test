@@ -26,15 +26,12 @@
   margin-bottom: 30px;
   &__product-img {
     max-width: 100%;
-    // height: 496px;
-    // left: 208px;
-    // top: 296px;
   }
   &__product-attributes {
     display: flex;
     flex-wrap: wrap;
     width: 602px;
-    flex-direction: column;
+    flex-direction: row;
   }
   &__img {
     margin: 0;
@@ -223,7 +220,7 @@
   max-width: 397px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 980px) {
   .elc-main {
     flex-direction: column;
     padding-left: 20px;
@@ -257,7 +254,7 @@
   .elc-main-description {
     &__product-attributes {
       margin-bottom: 12px;
-      flex-direction: row;
+      flex-direction: column;
     }
     &__img {
       padding-top: 30px;
